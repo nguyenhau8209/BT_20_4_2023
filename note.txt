@@ -1,0 +1,7 @@
+-'^' là ký tự bắt đầu của chuỗi
+-'[a-zA-Z0-9._%+-]+' phù hợp với một hoặc nhiều ký tự chữ cái (a-z, A-Z), số (0-9) hoặc các ký tự đặc biệt như . (dấu chấm), _ (dấu gạch dưới), %, +, và -.
+-'@' là ký tự @ trong địa chỉ email.
+-'[a-zA-Z0-9.-]+' phù hợp với một hoặc nhiều ký tự chữ cái (a-z, A-Z), số (0-9) hoặc dấu gạch ngang - trong tên miền của địa chỉ email.
+-'\.' phù hợp với ký tự . trong tên miền của địa chỉ email.
+-'[a-zA-Z]{2,}' phù hợp với ít nhất hai ký tự chữ cái (a-z, A-Z) trong phần sau của tên miền, ví dụ .com, .edu, .org,...).
+-'$' là ký tự kết thúc của chuỗi.
